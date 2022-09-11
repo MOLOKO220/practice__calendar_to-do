@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/practice__calendar_to-do/static/css/main.821acf7b.css",
+    "main.js": "/practice__calendar_to-do/static/js/main.e1edd1d4.js",
+    "index.html": "/practice__calendar_to-do/index.html",
+    "main.821acf7b.css.map": "/practice__calendar_to-do/static/css/main.821acf7b.css.map",
+    "main.e1edd1d4.js.map": "/practice__calendar_to-do/static/js/main.e1edd1d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.821acf7b.css",
+    "static/js/main.e1edd1d4.js"
+  ]
+}
