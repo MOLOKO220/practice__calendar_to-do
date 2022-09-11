@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.scss";
 
-function App() {
+import CreatingEventForm from "./component/CreatingEventForm/CreatingEventForm";
+import DateFilter from "./component/DateFilter/DateFilter";
+import CalendarMain from "./component/CalendarMain/CalendarMain";
+
+export default function App() {
+  const [render, setRender] = useState(0);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <CreatingEventForm render={render} setRender={setRender} />
+        <DateFilter />
       </header>
+      <CalendarMain />
     </div>
   );
 }
-
-export default App;

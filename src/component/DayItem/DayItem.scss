@@ -1,0 +1,27 @@
+.DayItem {
+  width: 140px;
+  height: 140px;
+  margin: 1px;
+  background: white;
+  padding: 0 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    p {
+      font-size: 10px;
+    }
+    h6 {
+      font-weight: 400;
+    }
+  }
+}
+.DayItem__transparency {
+  background: rgb(173, 173, 173);
+}
+.DayItem__this-day {
+  border: solid 5px rgb(19, 223, 19);
+}

@@ -1,0 +1,29 @@
+.DateFilter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  > button {
+    height: 40px;
+    width: 40px;
+    background: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 200ms;
+    position: absolute;
+    top: 2px;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  .DateFilter__prev-btn {
+    left: 0;
+  }
+  .DateFilter__next-btn {
+    right: 0;
+  }
+  > input {
+    width: 145px;
+  }
+}
